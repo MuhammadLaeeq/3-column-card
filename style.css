@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+html{
+    box-sizing: border-box;
+    font-size:15px;
+}
+body{
+   margin:0;
+   padding:0;
+   font-family: 'Big Shoulders Display', cursive;
+   background-color: hsl(0, 0%, 95%);
+}
+.container{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    padding-top:90px;
+}
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    padding:20px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;       
+}
+.logo{
+    margin-top:30px;
+}
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+    padding:20px 30px;     
+}
+.card-3{
+    background-color: hsl(179, 100%, 13%);    
+    padding:20px 30px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;     
+}
+.info h2{
+    font-size:40px;
+    color:hsl(0, 0%, 95%);
+}
+.info p{
+    color:hsla(0, 0%, 100%, 0.75);
+    width:200px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.btn{
+    padding: 40px 0px;
+}
+.btn .cardbtn-1{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    padding:15px 10px;
+    border-radius:20px;
+    width:150px;
+}
+.btn .cardbtn-1:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn .cardbtn-2{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    padding:15px 10px;
+    border-radius:20px;
+    width:150px;
+}
+.btn .cardbtn-2:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+
+}
+.btn .cardbtn-3{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    padding:15px 10px;
+    border-radius:20px;
+    width:150px;
+}
+.btn .cardbtn-3:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+    border:2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .container{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .card-1{
+        background-color: hsl(31, 77%, 52%);
+        padding:20px 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;       
+    }
+    
+    .card-2{
+        background-color: hsl(184, 100%, 22%);
+        padding:20px 30px;
+        
+    }
+    .card-3{
+        background-color: hsl(179, 100%, 13%);    
+        padding:20px 30px;
+        border-top-right-radius:0px;  
+        border-bottom-left-radius:10px;     
+        border-bottom-right-radius:10px;     
+        
+    }
+
+  }
